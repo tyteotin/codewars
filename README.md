@@ -1,6 +1,6 @@
-
+# Codewars
 <p align="center">
-  # codewars
+  Rising through the ranks
   <image src= "http://tyteotin.github.io./title.jpg"/>
 </p>
 
