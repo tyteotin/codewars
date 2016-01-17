@@ -63,9 +63,13 @@ def generate_bc(url, separator):
 
     site_name = re.match(r'(.*?)(?=\.)', url_parts[0])
     active_class = re.match(r'(.*?)(?=\.)', url_parts[-1])
+    
+    # If active class has ".htm" or any file extension, strip file extension
     if(active_class == None):
+        # No file extension, keep as is
         active_class = url_parts[-1]
     else:
+        # Get name only, no file extension
         active_class = active_class.group(0)
 
     path = ""
