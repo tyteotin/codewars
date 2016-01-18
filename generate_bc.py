@@ -30,7 +30,6 @@ generate_bc("mysite.com/very-long-url-to-make-a-silly-yet-meaningful-example/exa
 generate_bc("www.very-long-site_name-to-make-a-silly-yet-meaningful-example.com/users/giacomo-sorbi", " + ") == '<a href="/">HOME</a> + <a href="/users/">USERS</a> + <span class="active">GIACOMO SORBI</span>'
 
 You will always be provided valid url to webpages in common formats, so you probably shouldn't bother validating them.
-
 """
 
 
